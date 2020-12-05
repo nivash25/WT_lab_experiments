@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CGPA Calculator</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+  <script>
+    function eva()
+    {
+        var n1=parseInt(document.getElementById("gpa1").value);
+        var n2=parseInt(document.getElementById("gpa2").value);
+        var n3=parseInt(document.getElementById("gpa3").value);
+        var n4=parseInt(document.getElementById("gpa4").value);
+        var n5=parseInt(document.getElementById("gpa5").value);
+        var n6=parseInt(document.getElementById("gpa6").value);
+        var n7=parseInt(document.getElementById("gpa7").value);
+        var n8=parseInt(document.getElementById("gpa8").value);
+        var res= document.getElementById("result");
+        res.value=((n1+n2+n3+n4+n5+n6+n7+n8)/8);
+    }
+</script>
+
+
+
+
+
+
+</head>
+<body class="bg-dark">
+
+    <div class="card bg-info"  style="margin:40px;">
+        <div class="card-body ">        
+            <div align="center" class="bg-dark text-white">
+               <h1> CGPA Calculator </h1> 
+                </div>    
+        </div>
+
+
+
+
+
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+            
+                            <h3>Enter the details : </h3>
+            
+                           
+                    </div>
+            
+            
+            
+            
+            
+            
+                </div>
+            
+            
+                <div>
+                            <h5>Semester 1 </h5>
+                        <hr>
+                        <div class="row">
+                            
+                        <div class="col-sm-12 col-md-12">
+            
+                                <div class="form-group">
+                                    <label for="current_cgpa">GPA:</label>
+                                    <input type="text" class="form-control" id="gpa1">
+                                </div>
+            
+                            </div>
+                            
+                        </div>
+            
+            
+            
+                </div>
+                
+                <div>
+                    <h5>Semester 2</h5>
+                <hr>
+                <div class="row">
+                    
+                                        <div class="col-sm-12 col-md-12">
+            
+                        <div class="form-group">
+                            <label for="current_cgpa">GPA:</label>
+                            <input type="text" class="form-control" id="gpa2">
+                        </div>
+            
+                    </div>
+                    
+                </div>
+            
+            
+            
+            </div>
+            
+            
+            
+            <div>
+                <h5>Semester 3 </h5>
+            <hr>
+            <div class="row">
+                
+               
+                <div class="col-sm-12 col-md-12">
+            
+                    <div class="form-group">
+                        <label for="current_cgpa">GPA:</label>
+                        <input type="text" class="form-control" id="gpa3">
+                    </div>
+            
+                </div>
+                
+            </div>
+            
+            
+            
+            </div>
+            
+          
+
+
+
+
+
+            <div>
+                <h5>Semester 4 </h5>
+            <hr>
+            <div class="row">
+                
+               
+                <div class="col-sm-12 col-md-12">
+            
+                    <div class="form-group">
+                        <label for="current_cgpa">GPA:</label>
+                        <input type="text" class="form-control" id="gpa4">
+                    </div>
+            
+                </div>
+                
+            </div>
+            
+            
+            
+            </div>
+            
+
+            
+            
+            <div>
+                <h5>Semester 5 </h5>
+            <hr>
+            <div class="row">
+                
+               
+                <div class="col-sm-12 col-md-12">
+            
+                    <div class="form-group">
+                        <label for="current_cgpa">GPA:</label>
+                        <input type="text" class="form-control" id="gpa5">
+                    </div>
+            
+                </div>
+                
+            </div>
+            
+            
+            
+            </div>
+            
+          
+            
+            <div>
+                <h5>Semester 6 </h5>
+            <hr>
+            <div class="row">
+                
+                
+                <div class="col-sm-12 col-md-12">
+            
+                    <div class="form-group">
+                        <label for="current_cgpa">GPA:</label>
+                        <input type="text" class="form-control" id="gpa6">
+                    </div>
+            
+                </div>
+                
+            </div>
+            
+            
+            
+            </div>
+            
+
+
+            <div>
+                <h5>Semester 7 </h5>
+            <hr>
+            <div class="row">
+                
+                <div class="col-sm-12 col-md-12">
+            
+                    <div class="form-group">
+                        <label for="current_cgpa">GPA:</label>
+                        <input type="text" class="form-control" id="gpa7">
+                    </div>
+            
+                </div>
+                
+            </div>
+            
+            
+            
+            </div>
+            
+
+
+
+            <div>
+                <h5>Semester 8 </h5>
+            <hr>
+            <div class="row">
+                
+                
+                <div class="col-sm-12 col-md-12">
+            
+                    <div class="form-group">
+                        <label for="current_cgpa">GPA:</label>
+                        <input type="text" class="form-control" id="gpa8">
+                    </div>
+            
+                </div>
+                
+            </div>
+            
+            
+            
+            </div>
+            
+
+
+          
+            
+            
+            <div class="row">
+                <div class="col-sm-12">
+
+                    <div align=center>
+                    
+                        
+                    <button   class="btn btn-outline-danger" type="button" data-toggle="collapse" data-target="#demo"  onclick="eva()"><h4>Calculate CGPA</h4></button>
+                    </div>
+
+
+                    <div id="demo" class="collapse">
+                        
+                        
+                            <div class="form-group ">
+                                <input  type="text" class="form-control" id="result" style="text-align: center;">
+                            </div>
+
+                            
+                        </div>
+
+                     
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+        </div>
+       
+        
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+    document.getElementById('credit_completed1').addEventListener('input',()=>
+    {
+        let c1credit
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+
+</body>
+</html>
