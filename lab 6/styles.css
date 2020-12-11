@@ -1,0 +1,46 @@
+
+#nav
+{
+    background-color:white;
+}
+#navitem
+{
+    color: darkred;
+    font-size: larger;
+}
+#navhead
+{
+    color: white;
+}
+
+body{
+    font-size: large;
+}
+
+#order{
+    color: yellow;
+}
+#animate
+{
+    background-color: lightslategray;
+    color:red;
+}
+#fieldsetform
+{
+    width: 30%;background-color:gray;color: black;
+}
+#jumbo
+{
+    background-color: black;
+    color: wheat;
+}
+
+.top-right {
+    position: absolute;
+    top: 18px;
+    left: 16px;
+  }
+  #sign
+  {
+      float: left;
+  }
